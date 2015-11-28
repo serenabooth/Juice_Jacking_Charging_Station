@@ -1,0 +1,4 @@
+2015-11-28 00:18:01.488324 [{'device': '/dev/bus/usb/002/027', 'tag': 'Nokia Mobile Phones ', 'id': '0421:06fc'}]
+
+2015-11-28 00:18:11.788524 [{'device': '/dev/bus/usb/002/028', 'tag': 'Nokia Mobile Phones ', 'id': '0421:06fc'}]
+
