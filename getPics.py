@@ -4,6 +4,7 @@ import pymtp
 def get_dcim_folder_id(device):
   for folder in device.get_parent_folders():
     if folder.name == "DCIM":
+      print folder.folder_id
       return folder.folder_id
 
 def get_child_folders(device, parent_folder_id):
@@ -46,7 +47,7 @@ folder_ids = get_child_folders(device, dcim_folder_id)
 print "Folder Ids: %s" % folder_ids
 
 picture_files = get_picture_file_list(device, folder_ids)
-for f in picture_files:
+for f in picture_files[0:10]:
   print "Picture: %s - %s" % (f.filename, f.filesize)
 
 device.disconnect()

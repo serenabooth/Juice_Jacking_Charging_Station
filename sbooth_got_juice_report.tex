@@ -1,0 +1,204 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+\usepackage{listings}
+\usepackage{color}
+\usepackage[utf8]{inputenc}
+
+% Default fixed font does not support bold face
+\DeclareFixedFont{\ttb}{T1}{txtt}{bx}{n}{12} % for bold
+\DeclareFixedFont{\ttm}{T1}{txtt}{m}{n}{12}  % for normal
+
+% Custom colors
+\usepackage{color}
+\definecolor{deepblue}{rgb}{0,0,0.5}
+\definecolor{deepred}{rgb}{0.6,0,0}
+\definecolor{deepgreen}{rgb}{0,0.5,0}
+
+\usepackage{listings}
+
+% Python style for highlighting
+\newcommand\pythonstyle{\lstset{
+language=Python,
+basicstyle=\ttm,
+otherkeywords={self},             % Add keywords here
+keywordstyle=\ttb\color{deepblue},
+emph={MyClass,__init__},          % Custom highlighting
+emphstyle=\ttb\color{deepred},    % Custom highlighting style
+stringstyle=\color{deepgreen},
+frame=tb,                         % Any extra options here
+showstringspaces=false            % 
+}}
+
+
+% Python environment
+\lstnewenvironment{python}[1][]
+{
+\pythonstyle
+\lstset{#1}
+}
+{}
+
+% Python for external files
+\newcommand\pythonexternal[2][]{{
+\pythonstyle
+\lstinputlisting[#1]{#2}}}
+
+% Python for inline
+\newcommand\pythoninline[1]{{\pythonstyle\lstinline!#1!}}
+
+
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{letterpaper} % or letterpaper (US) or a5paper or....
+% \geometry{margin=2in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+\usepackage{hyperref}
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{Serena Booth $\bullet$ Privacy \& Technology}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+\usepackage{setspace}
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\title{Got Juice? \\ Juice-jacking Maxwell Dworkin Attendees}
+\author{CS105: Privacy and Technology \\ Serena Booth}
+\date{December 11, 2015} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+\begin{document}
+\maketitle
+\doublespacing
+\section{Abstract}
+
+Batteries are unable to keep up with smartphone usage. In response to the low battery epidemic, many social centers and shopping destinations have set up ``charge stations,'' consisting of powered common phone charging cables. These charging stations represent a privacy threat, as most phone charging cables facilitate both a data and power connection. 
+
+\section{Introduction}
+
+Because phone charging cables transmit data, smartphone OS designers and distributors have created defenses against so-called ``juice jacking,'' wherein an assailant without authorization either retrieves data or injects malware when a user charges their phone. However, as is often the case in the world of privacy and technology, these protections against juice-jacking detract from convenience. I thus created a rogue charging station which encourages users to embrace convenience over data protection. I deployed this charging station in the second floor student lounge of Maxwell Dworkin, the Harvard Computer Science building. 
+
+\section{Obstacles} 
+
+Each smartphone operating system has a unique suite of protections against juice-jacking. Here, I list the main lines of defense and limitations for three such operating systems. 
+
+\subsection{iOS} 
+
+\begin{itemize}
+\item As of iOS 7, Apple has enabled two major protections against juice-jacking. First, an iOS device's data connection is entirely powered down when the phone is locked. Second, on an attempted data connection, an iOS device presents a user with a prompt asking whether the user would like to `Trust this Computer?' If a user responds, `Don't Trust,' the data connection remains disabled; if a user responds, `Trust,' the data connection is enabled. 
+
+\item The notification asking users to `Trust this Computer?' is flawed, and can be effectively manipulated. First, the word choice is questionable: people generally regard themselves to be trusting, so this notification toys with human psyche. Second, the meaning of ``trust'' is entirely opaque to a layman. Third, and most importantly, this notification is annoying. Many websites exist instructing iOS users on how to always trust in order to never view this notification again. 
+\end{itemize} 
+
+\subsection{Android} 
+
+\begin{itemize}
+\item Android Ice Cream Sandwich and later likewise employ two major protections. Most Android handsets have their data connection disabled when the phone is locked. Android has ``MTP,'' or media transfer protocol enabled by default; however, a passive notification is presented to an Android user when this connection is made. MTP and ``PTP,'' an alternate transfer protocol designed for pictures, can be disabled manually. 
+
+\item Android phones' default settings make them vulnerable to juice jacking. While the user is alerted when a data connection between a computer and the phone is active, the user's data has already been compromised, even if the user then disables MTP. 
+\end{itemize} 
+
+\subsection{Windows} 
+
+\begin{itemize}
+\item Windows handsets don't have data fully disabled when the handset is locked. Rather, the response to a data request is limited until the handset is unlocked. 
+
+\item In providing a partial response to a data request, Windows exposes the layout of the phone's data, even when the phone is locked. This information can be used to access a remote storage device (such as a microSD card) if used with the handset. Further, as of Windows 8, users were not able to encrypt the contents of this additional storage. 
+\end{itemize} 
+
+\section{Materials and Methods}
+
+Juice-jacking has been exposed as a risk to smartphone data since 2011, and the above obstacles to juice-jacking have been implemented since then. In designing my rogue charging station, I wanted to see which protections would compromised for the sake of  convenience.  
+
+\subsection{Materials} 
+
+I purchased the following materials in order to assemble the rogue charging station: 
+\begin{itemize}
+\item 2x USB micro charging cables (Android + Windows devices) 
+\item 2x USB lightning charging cables (iOS devices) 
+\item A self-powered USB hub
+\item A USB splitter
+\item A Raspberry Pi
+\item A 32GB SD card
+\end{itemize} 
+
+\subsection{Methods} 
+
+I wrote a program which sends me an email if a USB device was connected with an enabled data connection. In particular, in the case of an Android or iOS device, this meant that a user was not only charging their device from my rogue unit, but had given up their first line of defense against juice-jacking: they had unlocked their phone. In order to facilitate such interactions, I placed the charging device on a study table, hoping that users would sit at the table and thumb through their phone while connected. Likewise, I selected 3' USB cables to enable this interaction mode. If my charging station is unplugged, it will restart the usb counting script on startup. If an error occurs when running the script, the script continues. If the script is killed, it is relaunched by a helper application.\\
+
+\noindent Being a miscreant, I also wanted to determine whether users of my charging station had yielded all data protections. I focused on Android users in this endeavor, as iOS uses a proprietary transfer protocol. When an Android device is connected to my charging station, I attempt to enable an MTP connection. If that connection is successful, I search the user's phone for a folder entitled ``DCIM.'' If such a folder is found and is accessible to me, I disconnect from MTP and email myself a notification that a user has effectively given me access to all of the pictures on their phone. While I considered posting three random pictures to Twitter in response to such an event, I realized that this would overstep.
+
+\section{Results}
+
+As of December 11, 2015, 20 users have used my charging station and yielded their first line of defense. The charging station has been in use since November 30, 2015. Of the 20 users, 19 have had iPhone devices; 1 had an LG device. The LG device had MTP disabled. 
+
+\section{Defense Against The Dark Arts}
+
+Simple steps can protect users from juice-jacking. I enumerate those steps here: 
+
+\begin{enumerate}
+\item Avoid using charging stations! 
+\item When using a charging station, power your phone down. 
+\item When using a charging station, do not unlock your phone. 
+\item iOS users should not trust computers, except their personal machine for syncing data. 
+\item Android users should disable MTP and PTP unless syncing data. 
+\item All users should wear a ``USB condom''\footnote{Available for \$4.99 from SyncStop, \url{http://shop.syncstop.com/collections/buy/products/usb-condom?variant=808433739}} when charging their devices. 
+
+\end{enumerate}
+
+\section{Conclusion}
+
+Juice-jacking has potential to compromise data security on smartphones. Photographs can be stolen, malware can be injected. In a lounge devoted to computer science students, 20 attendees have compromised the protections that their smartphone OS'es offer for the sake of powering up. Given the scale, a rogue charging station could wreak havoc in an airport. 
+
+\newpage
+\appendix
+\section{Deployed Code}\label{App:AppendixA}
+
+Thanks to \url{http://stackoverflow.com/questions/8110310/} and \url{https://drautb.github.io/2015/07/27/the-perfect-exchange-mtp-with-python/}
+\pythonexternal{usbcounter.py}
+
+
+
+
+
+
+
+\end{document}
