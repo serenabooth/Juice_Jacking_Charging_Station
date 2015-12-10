@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.4)  8 DEC 2015 19:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.4)  10 DEC 2015 17:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -595,20 +595,20 @@ Package: setspace 2011/12/19 v6.7a set line spacing
 (./sbooth_got_juice_report.aux)
 \openout1 = `sbooth_got_juice_report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 108.
-LaTeX Font Info:    ... okay on input line 108.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
 \c@lstlisting=\count121
 
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -675,7 +675,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring OFF on input line 108.
+Package hyperref Info: Link coloring OFF on input line 109.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -685,9 +685,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count128
 )
-LaTeX Info: Redefining \ref on input line 108.
-LaTeX Info: Redefining \pageref on input line 108.
-LaTeX Info: Redefining \nameref on input line 108.
+LaTeX Info: Redefining \ref on input line 109.
+LaTeX Info: Redefining \pageref on input line 109.
+LaTeX Info: Redefining \nameref on input line 109.
 
 (./sbooth_got_juice_report.out) (./sbooth_got_juice_report.out)
 \@outlinefile=\write3
@@ -697,24 +697,35 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 110.
+(Font)              <12> on input line 111.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 110.
+(Font)              <8> on input line 111.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 110.
- [1
+(Font)              <6> on input line 111.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 126.
+<photo.jpg, id=60, 3661.68pt x 2746.26pt>
+File: photo.jpg Graphic file (type jpg)
+ <use photo.jpg>
+Package pdftex.def Info: photo.jpg used on input line 114.
+(pdftex.def)             Requested size: 430.00462pt x 322.49702pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
+
+ []
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./photo.jpg>]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 131.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 126.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 131.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 137.
+(Font)              <10.95> on input line 133.
 
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -722,26 +733,26 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+[2]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 149.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 149.
+ [3]
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
-[4]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 183.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 183.
-
-Underfull \hbox (badness 6708) in paragraph at lines 183--183
+[4] [5]
+Underfull \hbox (badness 6708) in paragraph at lines 188--188
 [][]\OT1/cmr/m/n/9 Available for $4.99 from Sync-Stop, []$\OT1/cmtt/m/n/9 http 
 : / / shop . syncstop . com / collections / buy / products /
  []
 
-[5] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+[6] (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2013/08/26 1.5b listings language file
 )
-Overfull \hbox (16.41685pt too wide) in paragraph at lines 195--196
+Overfull \hbox (16.41685pt too wide) in paragraph at lines 200--201
 \OT1/cmr/m/n/10.95 Thanks to []$\OT1/cmtt/m/n/10.95 http : / / stackoverflow . 
 com / questions / 8110310/$[] \OT1/cmr/m/n/10.95 and []$\OT1/cmtt/m/n/10.95 htt
 ps : / / drautb . github .
@@ -767,13 +778,13 @@ Overfull \hbox (59.60036pt too wide) in paragraph at lines 21--22
 [][][][][][][][][][][][] 
  []
 
-[6]
+[7]
 Overfull \hbox (66.80043pt too wide) in paragraph at lines 29--30
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ] 
  []
 
-[7]
+[8]
 Overfull \hbox (59.60036pt too wide) in paragraph at lines 50--52
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
@@ -799,28 +810,53 @@ Overfull \hbox (23.59999pt too wide) in paragraph at lines 72--73
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[8])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 204.
- [9]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 204.
+[9]) [10] [11] [12]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 242.
+ [13]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
  (./sbooth_got_juice_report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 204.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 204.
-Package rerunfilecheck Info: File `sbooth_got_juice_report.out' has not changed
-.
-(rerunfilecheck)             Checksum: B0F14A7E18AB48C5B99251663E8E2278;672.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 242.
+
+
+Package rerunfilecheck Warning: File `sbooth_got_juice_report.out' has changed.
+
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `sbooth_got_juice_report.out':
+(rerunfilecheck)             Before: 4E5A0549170AA49228F7413E08B6EE42;759
+(rerunfilecheck)             After:  2DBA2347755C77CF3A392B845049B415;764.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 242.
  ) 
 Here is how much of TeX's memory you used:
- 9869 strings out of 493304
- 144671 string characters out of 6139872
- 255357 words of memory out of 5000000
- 13078 multiletter control sequences out of 15000+600000
+ 9889 strings out of 493304
+ 144874 string characters out of 6139872
+ 255662 words of memory out of 5000000
+ 13084 multiletter control sequences out of 15000+600000
  11955 words of font info for 42 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,12n,43p,836b,2023s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
+ 44i,12n,43p,972b,2023s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exi
 st, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
 
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/t
@@ -835,10 +871,10 @@ mti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on sbooth_got_juice_report.pdf (9 pages, 170597 bytes).
+Output written on sbooth_got_juice_report.pdf (13 pages, 2916480 bytes).
 PDF statistics:
- 294 PDF objects out of 1000 (max. 8388607)
- 266 compressed objects within 3 object streams
- 127 named destinations out of 1000 (max. 500000)
- 105 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 338 PDF objects out of 1000 (max. 8388607)
+ 304 compressed objects within 4 object streams
+ 138 named destinations out of 1000 (max. 500000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 

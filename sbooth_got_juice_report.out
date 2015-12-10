@@ -1,6 +1,6 @@
 \BOOKMARK [1][-]{section.1}{Abstract}{}% 1
 \BOOKMARK [1][-]{section.2}{Introduction}{}% 2
-\BOOKMARK [1][-]{section.3}{Obstacles}{}% 3
+\BOOKMARK [1][-]{section.3}{OS Protections}{}% 3
 \BOOKMARK [2][-]{subsection.3.1}{iOS}{section.3}% 4
 \BOOKMARK [2][-]{subsection.3.2}{Android}{section.3}% 5
 \BOOKMARK [2][-]{subsection.3.3}{Windows}{section.3}% 6
@@ -10,4 +10,5 @@
 \BOOKMARK [1][-]{section.5}{Results}{}% 10
 \BOOKMARK [1][-]{section.6}{Defense Against The Dark Arts}{}% 11
 \BOOKMARK [1][-]{section.7}{Conclusion}{}% 12
-\BOOKMARK [1][-]{appendix.A}{Deployed Code}{}% 13
+\BOOKMARK [1][-]{appendix.A}{Appendix: Deployed Code}{}% 13
+\BOOKMARK [1][-]{appendix.B}{Appendix: Q\046A from Class Presentation}{}% 14
