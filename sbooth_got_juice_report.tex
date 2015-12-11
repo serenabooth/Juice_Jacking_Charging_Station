@@ -173,7 +173,7 @@ I wrote a program which sends me an email if a USB device was connected with an 
 
 \section{Results}
 
-As of December 11, 21 users have used my charging station and yielded their first line of defense by unlocking their phones. The charging station has been in operation since November 30. Of the 21 devices, 19 were iPhones; 1 an LG, 1 a Samsung Galaxy. The LG device had MTP disabled, but the Samsung device allowed me to access its DCIM folder. 
+As of December 11, 22 users have used my charging station and yielded their first line of defense by unlocking their phones. The charging station has been in operation since November 30. Of the 22 devices, 20 were iPhones; 1 an LG, 1 a Samsung Galaxy. The LG device had MTP disabled, but the Samsung device allowed me to access its DCIM folder. 
 
 \section{Defense Against The Dark Arts}
 
@@ -191,7 +191,7 @@ Simple steps can protect users from juice-jacking. I enumerate those steps here:
 
 \section{Conclusion}
 
-Juice-jacking has potential to compromise data security on smartphones. Photographs can be stolen, malware can be injected. In a lounge devoted to computer science students, 21 attendees have compromised the protections that their smartphone OS'es offer for the sake of powering up. Maxwell Dworkin has relatively small throughput, and most attendees bring computers and their own USB cables with them. Given that in this small, controlled environment, I saw significant charge use, I posit that a rogue charging station could wreak havoc in a heavily attended location such as an airport or a popular shopping destination. 
+Juice-jacking has potential to compromise data security on smartphones. Photographs can be stolen, malware can be injected. In a lounge devoted to computer science students, 22 attendees have compromised the protections that their smartphone OS'es offer for the sake of powering up. Maxwell Dworkin has relatively small throughput, and most attendees bring computers and their own USB cables with them. Given that in this small, controlled environment, I saw significant charge use, I posit that a rogue charging station could wreak havoc in a heavily attended location such as an airport or a popular shopping destination. 
 
 \newpage
 \appendix
@@ -216,11 +216,11 @@ A: Indeed, this would be a very interesting follow up to my work. Sadly, for a c
 
 A: The threat is significant. If you're able to gain access to the phone in this capacity, the phone's data is presented to you in an unencrypted form. You can immediately take any information from the phone which is designed to by synced between phones and computers -- all media and contacts. Moreover, this attack enables the injection of malware onto the phone, as the data communication is two-way. Such an attack was demonstrated by Geogia Tech in 2013\footnote{Ibid.}. 
 
-\item What is and isn't illegal surrounding what information can be used/taken from your phone when it is unlocked in a changing station? Are the privacy attacks something that can be done or is legal to do?
+\item Q: What is and isn't illegal surrounding what information can be used/taken from your phone when it is unlocked in a changing station? Are the privacy attacks something that can be done or is legal to do?
 
 A: I haven't thoroughly investigated the legal issues around this technology. I would hazard a guess that so long as a terms of use is viewable, a malicious charger which retrieves data from the device is permissible, while a malicious charger which injects malware is not. 
 
-\item Q: Your project was fascinating and I will certainly never use charging kiosks again. But in my mind, your project raises a lot of questions, specifically regarding regulation of operating a charging kiosk. Since many people (including myself before today) had no clue that connecting to a kiosk and operating my phone could put my data at risk, should the government step in and "protect" people by banning these charging kiosks (unless they explicitly inform the people using it through a sign.) Its essentially the opt-in/opt-out debate regarding informed consent.
+\item Q: Your project was fascinating and I will certainly never use charging kiosks again. But in my mind, your project raises a lot of questions, specifically regarding regulation of operating a charging kiosk. Since many people (including myself before today) had no clue that connecting to a kiosk and operating my phone could put my data at risk, should the government step in and "protect" people by banning these charging kiosks (unless they explicitly inform the people using it through a sign.) It's essentially the opt-in/opt-out debate regarding informed consent.
 
 A: Public charging kiosks provide an extremely useful service, so I am not in the least bit opposed to them. My suggested reform is with smartphone operating systems. I believe Apple is on the right track with their ``Trust this Computer?'' notification before enabling a data connection. With better wording, and perhaps a less annoying notification which defaulted to a non-trusting state, this protection could ensure that rogue charging stations posed a very limited threat. 
 
@@ -230,7 +230,7 @@ A: Researchers speculate that this type of attack has not been launched in any s
 
 \item Q: Why were you not able to get at the DCIM folder of these 10 users? Is there another protection in Android that prevents you from doing so? Or were all these 10 users protecting themselves in some way?
 
-A: My MTP attack is only launched on Android users. Of the 10 users prior to the presentation, 9 were iPhone users, and the 1 Android user had MTP disabled. As of December 11th, 20 users have unlocked their phones while engaged with my charging unit. Of those, 19 have been iPhones. 
+A: My MTP attack is only launched on Android users. Of the 10 users prior to the presentation, 9 were iPhone users, and the 1 Android user had MTP disabled. As of December 11th, 22 users have unlocked their phones while engaged with my charging unit. Of those, 20 have been iPhones. 1 Android device had MTP disabled, but 1 Android device had MTP enabled, and I was indeed able to access that DCIM folder. 
 
 \end{itemize} 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.4)  10 DEC 2015 17:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.4)  11 DEC 2015 14:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -817,16 +817,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 242.
  (./sbooth_got_juice_report.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 242.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 242.
-
-
-Package rerunfilecheck Warning: File `sbooth_got_juice_report.out' has changed.
-
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `sbooth_got_juice_report.out':
-(rerunfilecheck)             Before: 4E5A0549170AA49228F7413E08B6EE42;759
-(rerunfilecheck)             After:  2DBA2347755C77CF3A392B845049B415;764.
+Package rerunfilecheck Info: File `sbooth_got_juice_report.out' has not changed
+.
+(rerunfilecheck)             Checksum: 2DBA2347755C77CF3A392B845049B415;764.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 242.
  ) 
 Here is how much of TeX's memory you used:
@@ -871,7 +864,7 @@ mti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xbtt.pfb></usr/share/t
 exlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on sbooth_got_juice_report.pdf (13 pages, 2916480 bytes).
+Output written on sbooth_got_juice_report.pdf (13 pages, 2916560 bytes).
 PDF statistics:
  338 PDF objects out of 1000 (max. 8388607)
  304 compressed objects within 4 object streams
